@@ -1,0 +1,76 @@
+.body{
+    background-color:rgb(72, 186, 204) ;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.bbox{
+    width: 70%;
+    height: 600px;
+    background-color: bisque;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.bar{
+    width: 100%;
+    height: 12%;
+    background-color: rgb(20, 139, 166);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.score{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    color: aliceblue;
+    font-size: 27px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.hit{
+    width: 50px;
+    height: 100%;
+    background-color: rgb(31, 110, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:antiquewhite;
+    border-radius: 5px;
+}
+.buuble-place{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.buuble{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: rgb(176, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(81, 141, 180);
+}
+.buuble:hover{
+    background-color: rgb(86, 11, 11);
+    cursor: pointer;
+}
